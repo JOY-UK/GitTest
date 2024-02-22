@@ -8,6 +8,7 @@ public class TestController {
 
     @GetMapping("/main")
     public String main(){
+        System.out.println("집에서 수정함");
         return "main";
     }
 }
